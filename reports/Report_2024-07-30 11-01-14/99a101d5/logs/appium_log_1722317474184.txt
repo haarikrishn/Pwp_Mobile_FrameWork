@@ -1,0 +1,404 @@
+2024-07-30 05:31:15:951 [Appium] Welcome to Appium v1.22.3
+2024-07-30 05:31:15:952 [Appium] Non-default server args:
+2024-07-30 05:31:15:953 [Appium]   address: 127.0.0.1
+2024-07-30 05:31:15:953 [Appium]   port: 51911
+2024-07-30 05:31:15:953 [Appium]   bootstrapPort: 51909
+2024-07-30 05:31:15:953 [Appium]   logFile: D:\Dmart_Github\poss_desk\Poss\poss\reports\Report_2024-07-30 11-01-14\99a101d5\logs\appium_log_1722317474184.txt
+2024-07-30 05:31:15:954 [Appium]   chromedriverPort: 51910
+2024-07-30 05:31:15:955 [Appium] Deprecated server args:
+2024-07-30 05:31:15:955 [Appium]   --chromedriver-port => --default-capabilities
+2024-07-30 05:31:15:955 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2024-07-30 05:31:15:956 [Appium]   chromedriverPort: 51910
+2024-07-30 05:31:15:992 [Appium] Appium REST http interface listener started on 127.0.0.1:51911
+2024-07-30 05:31:16:190 [HTTP] --> GET /wd/hub/status
+2024-07-30 05:31:16:190 [HTTP] {}
+2024-07-30 05:31:16:191 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-07-30 05:31:16:192 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2024-07-30 05:31:16:197 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2024-07-30 05:31:16:198 [HTTP] 
+2024-07-30 05:31:16:202 [HTTP] --> GET /wd/hub/status
+2024-07-30 05:31:16:202 [HTTP] {}
+2024-07-30 05:31:16:202 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2024-07-30 05:31:16:203 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2024-07-30 05:31:16:204 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2024-07-30 05:31:16:204 [HTTP] 
+2024-07-30 05:31:17:290 [HTTP] --> POST /wd/hub/session
+2024-07-30 05:31:17:291 [HTTP] {"desiredCapabilities":{"appActivity":"com.dmartlabs.pwp.view.foundation.SplashActivity","appPackage":"com.dmartlabs.pwp","newCommandTimeout":600,"platformVersion":"12.0.0","automationName":"uiautomator2","platformName":"Android","udid":"99a101d5","deviceName":"99a101d5","launchTimeout":90000,"systemPort":51917},"capabilities":{"firstMatch":[{"appium:appActivity":"com.dmartlabs.pwp.view.foundation.SplashActivity","appium:appPackage":"com.dmartlabs.pwp","appium:automationName":"uiautomator2","appium:deviceName":"99a101d5","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"12.0.0","appium:systemPort":51917,"appium:udid":"99a101d5"}]}}
+2024-07-30 05:31:17:291 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.dmartlabs.pwp.view.foundation.SplashActivity","appPackage":"com.dmartlabs.pwp","newCommandTimeout":600,"platformVersion":"12.0.0","automationName":"uiautomator2","platformName":"Android","udid":"99a101d5","deviceName":"99a101d5","launchTimeout":90000,"systemPort":51917},null,{"firstMatch":[{"appium:appActivity":"com.dmartlabs.pwp.view.foundation.SplashActivity","appium:appPackage":"com.dmartlabs.pwp","appium:automationName":"uiautomator2","appium:deviceName":"99a101d5","appium:launchTimeout":90000,"appium:newCommandTimeout":600,"platformName":"android","appium:platformVersion":"12.0.0","appium:systemPort":51917,"appium:udid":"99a101d5"}]}]
+2024-07-30 05:31:17:292 [BaseDriver] Event 'newSessionRequested' logged at 1722317477292 (11:01:17 GMT+0530 (India Standard Time))
+2024-07-30 05:31:17:295 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2024-07-30 05:31:17:295 [BaseDriver]   chromedriverPort
+2024-07-30 05:31:17:585 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2024-07-30 05:31:17:587 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2024-07-30 05:31:17:587 [BaseDriver] Creating session with W3C capabilities: {
+2024-07-30 05:31:17:587 [BaseDriver]   "alwaysMatch": {
+2024-07-30 05:31:17:587 [BaseDriver]     "platformName": "android",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:chromedriverPort": 51910,
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:appActivity": "com.dmartlabs.pwp.view.foundation.SplashActivity",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:appPackage": "com.dmartlabs.pwp",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:automationName": "uiautomator2",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:deviceName": "99a101d5",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:launchTimeout": 90000,
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:newCommandTimeout": 600,
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:platformVersion": "12.0.0",
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:systemPort": 51917,
+2024-07-30 05:31:17:588 [BaseDriver]     "appium:udid": "99a101d5"
+2024-07-30 05:31:17:589 [BaseDriver]   },
+2024-07-30 05:31:17:589 [BaseDriver]   "firstMatch": [
+2024-07-30 05:31:17:589 [BaseDriver]     {}
+2024-07-30 05:31:17:589 [BaseDriver]   ]
+2024-07-30 05:31:17:589 [BaseDriver] }
+2024-07-30 05:31:17:594 [BaseDriver] Session created with session id: 46a9805c-eeb0-4f77-98f9-35816f876a64
+2024-07-30 05:31:17:595 [UiAutomator2] Starting 'com.dmartlabs.pwp' directly on the device
+2024-07-30 05:31:17:603 [ADB] Found 1 'build-tools' folders under 'C:\Users\Labs User's\AppData\Local\Android\Sdk' (newest first):
+2024-07-30 05:31:17:603 [ADB]     C:/Users/Labs User's/AppData/Local/Android/Sdk/build-tools/34.0.0
+2024-07-30 05:31:17:604 [ADB] Using 'adb.exe' from 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2024-07-30 05:31:17:605 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2024-07-30 05:31:17:644 [AndroidDriver] Retrieving device list
+2024-07-30 05:31:17:644 [ADB] Trying to find a connected android device
+2024-07-30 05:31:17:644 [ADB] Getting connected devices
+2024-07-30 05:31:17:679 [ADB] No connected devices have been detected
+2024-07-30 05:31:17:679 [ADB] Could not find online devices
+2024-07-30 05:31:17:679 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:17:680 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:17:918 [ADB] Getting connected devices
+2024-07-30 05:31:17:949 [ADB] No connected devices have been detected
+2024-07-30 05:31:17:949 [ADB] Could not find online devices
+2024-07-30 05:31:17:949 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:17:949 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:18:200 [ADB] Getting connected devices
+2024-07-30 05:31:18:237 [ADB] No connected devices have been detected
+2024-07-30 05:31:18:237 [ADB] Could not find online devices
+2024-07-30 05:31:18:237 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:18:237 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:18:469 [ADB] Getting connected devices
+2024-07-30 05:31:18:512 [ADB] No connected devices have been detected
+2024-07-30 05:31:18:512 [ADB] Could not find online devices
+2024-07-30 05:31:18:513 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:18:513 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:18:754 [ADB] Getting connected devices
+2024-07-30 05:31:18:788 [ADB] No connected devices have been detected
+2024-07-30 05:31:18:788 [ADB] Could not find online devices
+2024-07-30 05:31:18:788 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:18:788 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:19:022 [ADB] Getting connected devices
+2024-07-30 05:31:19:058 [ADB] No connected devices have been detected
+2024-07-30 05:31:19:058 [ADB] Could not find online devices
+2024-07-30 05:31:19:058 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:19:058 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:19:306 [ADB] Getting connected devices
+2024-07-30 05:31:19:344 [ADB] No connected devices have been detected
+2024-07-30 05:31:19:344 [ADB] Could not find online devices
+2024-07-30 05:31:19:344 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:19:344 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:19:589 [ADB] Getting connected devices
+2024-07-30 05:31:19:622 [ADB] No connected devices have been detected
+2024-07-30 05:31:19:622 [ADB] Could not find online devices
+2024-07-30 05:31:19:622 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:19:622 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:19:857 [ADB] Getting connected devices
+2024-07-30 05:31:19:890 [ADB] No connected devices have been detected
+2024-07-30 05:31:19:890 [ADB] Could not find online devices
+2024-07-30 05:31:19:890 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:19:890 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:20:125 [ADB] Getting connected devices
+2024-07-30 05:31:22:122 [ADB] No connected devices have been detected
+2024-07-30 05:31:22:122 [ADB] Could not find online devices
+2024-07-30 05:31:22:122 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:22:122 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:22:361 [ADB] Getting connected devices
+2024-07-30 05:31:22:395 [ADB] No connected devices have been detected
+2024-07-30 05:31:22:396 [ADB] Could not find online devices
+2024-07-30 05:31:22:396 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:22:396 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:22:629 [ADB] Getting connected devices
+2024-07-30 05:31:22:670 [ADB] No connected devices have been detected
+2024-07-30 05:31:22:671 [ADB] Could not find online devices
+2024-07-30 05:31:22:671 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:22:671 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:22:913 [ADB] Getting connected devices
+2024-07-30 05:31:22:948 [ADB] No connected devices have been detected
+2024-07-30 05:31:22:948 [ADB] Could not find online devices
+2024-07-30 05:31:22:948 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:22:948 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:23:182 [ADB] Getting connected devices
+2024-07-30 05:31:23:215 [ADB] No connected devices have been detected
+2024-07-30 05:31:23:215 [ADB] Could not find online devices
+2024-07-30 05:31:23:215 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:23:216 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:23:449 [ADB] Getting connected devices
+2024-07-30 05:31:23:485 [ADB] No connected devices have been detected
+2024-07-30 05:31:23:485 [ADB] Could not find online devices
+2024-07-30 05:31:23:485 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:23:485 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:23:732 [ADB] Getting connected devices
+2024-07-30 05:31:23:767 [ADB] No connected devices have been detected
+2024-07-30 05:31:23:767 [ADB] Could not find online devices
+2024-07-30 05:31:23:767 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:23:767 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:23:998 [ADB] Getting connected devices
+2024-07-30 05:31:24:049 [ADB] No connected devices have been detected
+2024-07-30 05:31:24:050 [ADB] Could not find online devices
+2024-07-30 05:31:24:050 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:24:050 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:24:299 [ADB] Getting connected devices
+2024-07-30 05:31:24:338 [ADB] No connected devices have been detected
+2024-07-30 05:31:24:339 [ADB] Could not find online devices
+2024-07-30 05:31:24:339 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:24:339 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:24:582 [ADB] Getting connected devices
+2024-07-30 05:31:24:636 [ADB] No connected devices have been detected
+2024-07-30 05:31:24:636 [ADB] Could not find online devices
+2024-07-30 05:31:24:636 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:24:637 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:24:882 [ADB] Getting connected devices
+2024-07-30 05:31:24:913 [ADB] No connected devices have been detected
+2024-07-30 05:31:24:913 [ADB] Could not find online devices
+2024-07-30 05:31:24:913 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:24:913 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:25:150 [ADB] Getting connected devices
+2024-07-30 05:31:25:183 [ADB] No connected devices have been detected
+2024-07-30 05:31:25:184 [ADB] Could not find online devices
+2024-07-30 05:31:25:184 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:25:184 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:25:419 [ADB] Getting connected devices
+2024-07-30 05:31:25:455 [ADB] No connected devices have been detected
+2024-07-30 05:31:25:455 [ADB] Could not find online devices
+2024-07-30 05:31:25:455 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:25:455 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:25:687 [ADB] Getting connected devices
+2024-07-30 05:31:25:720 [ADB] No connected devices have been detected
+2024-07-30 05:31:25:720 [ADB] Could not find online devices
+2024-07-30 05:31:25:720 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:25:720 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:25:971 [ADB] Getting connected devices
+2024-07-30 05:31:26:006 [ADB] No connected devices have been detected
+2024-07-30 05:31:26:006 [ADB] Could not find online devices
+2024-07-30 05:31:26:006 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:26:006 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:26:255 [ADB] Getting connected devices
+2024-07-30 05:31:26:289 [ADB] No connected devices have been detected
+2024-07-30 05:31:26:289 [ADB] Could not find online devices
+2024-07-30 05:31:26:289 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:26:289 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:26:524 [ADB] Getting connected devices
+2024-07-30 05:31:26:556 [ADB] No connected devices have been detected
+2024-07-30 05:31:26:556 [ADB] Could not find online devices
+2024-07-30 05:31:26:556 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:26:556 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:26:792 [ADB] Getting connected devices
+2024-07-30 05:31:26:827 [ADB] No connected devices have been detected
+2024-07-30 05:31:26:827 [ADB] Could not find online devices
+2024-07-30 05:31:26:827 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:26:827 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:27:062 [ADB] Getting connected devices
+2024-07-30 05:31:27:097 [ADB] No connected devices have been detected
+2024-07-30 05:31:27:097 [ADB] Could not find online devices
+2024-07-30 05:31:27:097 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:27:097 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:27:330 [ADB] Getting connected devices
+2024-07-30 05:31:27:379 [ADB] No connected devices have been detected
+2024-07-30 05:31:27:379 [ADB] Could not find online devices
+2024-07-30 05:31:27:379 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:27:379 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:27:628 [ADB] Getting connected devices
+2024-07-30 05:31:27:660 [ADB] No connected devices have been detected
+2024-07-30 05:31:27:661 [ADB] Could not find online devices
+2024-07-30 05:31:27:661 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:27:661 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:27:895 [ADB] Getting connected devices
+2024-07-30 05:31:27:932 [ADB] No connected devices have been detected
+2024-07-30 05:31:27:933 [ADB] Could not find online devices
+2024-07-30 05:31:27:933 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:27:933 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:28:166 [ADB] Getting connected devices
+2024-07-30 05:31:28:202 [ADB] No connected devices have been detected
+2024-07-30 05:31:28:202 [ADB] Could not find online devices
+2024-07-30 05:31:28:202 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:28:202 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:28:449 [ADB] Getting connected devices
+2024-07-30 05:31:28:482 [ADB] No connected devices have been detected
+2024-07-30 05:31:28:482 [ADB] Could not find online devices
+2024-07-30 05:31:28:482 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:28:482 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:28:718 [ADB] Getting connected devices
+2024-07-30 05:31:28:752 [ADB] No connected devices have been detected
+2024-07-30 05:31:28:752 [ADB] Could not find online devices
+2024-07-30 05:31:28:752 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:28:752 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:28:986 [ADB] Getting connected devices
+2024-07-30 05:31:29:022 [ADB] No connected devices have been detected
+2024-07-30 05:31:29:023 [ADB] Could not find online devices
+2024-07-30 05:31:29:023 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:29:023 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:29:271 [ADB] Getting connected devices
+2024-07-30 05:31:29:308 [ADB] No connected devices have been detected
+2024-07-30 05:31:29:308 [ADB] Could not find online devices
+2024-07-30 05:31:29:308 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:29:308 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:29:555 [ADB] Getting connected devices
+2024-07-30 05:31:29:592 [ADB] No connected devices have been detected
+2024-07-30 05:31:29:593 [ADB] Could not find online devices
+2024-07-30 05:31:29:593 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:29:593 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:29:840 [ADB] Getting connected devices
+2024-07-30 05:31:29:874 [ADB] No connected devices have been detected
+2024-07-30 05:31:29:875 [ADB] Could not find online devices
+2024-07-30 05:31:29:875 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:29:875 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:30:122 [ADB] Getting connected devices
+2024-07-30 05:31:30:160 [ADB] No connected devices have been detected
+2024-07-30 05:31:30:160 [ADB] Could not find online devices
+2024-07-30 05:31:30:161 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:30:161 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:30:391 [ADB] Getting connected devices
+2024-07-30 05:31:30:424 [ADB] No connected devices have been detected
+2024-07-30 05:31:30:424 [ADB] Could not find online devices
+2024-07-30 05:31:30:424 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:30:424 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:30:659 [ADB] Getting connected devices
+2024-07-30 05:31:30:696 [ADB] No connected devices have been detected
+2024-07-30 05:31:30:696 [ADB] Could not find online devices
+2024-07-30 05:31:30:696 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:30:696 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:30:944 [ADB] Getting connected devices
+2024-07-30 05:31:30:981 [ADB] No connected devices have been detected
+2024-07-30 05:31:30:981 [ADB] Could not find online devices
+2024-07-30 05:31:30:981 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:30:981 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:31:229 [ADB] Getting connected devices
+2024-07-30 05:31:31:267 [ADB] No connected devices have been detected
+2024-07-30 05:31:31:267 [ADB] Could not find online devices
+2024-07-30 05:31:31:267 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:31:268 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:31:514 [ADB] Getting connected devices
+2024-07-30 05:31:31:549 [ADB] No connected devices have been detected
+2024-07-30 05:31:31:549 [ADB] Could not find online devices
+2024-07-30 05:31:31:550 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:31:550 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:31:799 [ADB] Getting connected devices
+2024-07-30 05:31:31:837 [ADB] No connected devices have been detected
+2024-07-30 05:31:31:837 [ADB] Could not find online devices
+2024-07-30 05:31:31:837 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:31:838 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:32:084 [ADB] Getting connected devices
+2024-07-30 05:31:32:127 [ADB] No connected devices have been detected
+2024-07-30 05:31:32:127 [ADB] Could not find online devices
+2024-07-30 05:31:32:127 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:32:127 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:32:383 [ADB] Getting connected devices
+2024-07-30 05:31:32:420 [ADB] No connected devices have been detected
+2024-07-30 05:31:32:420 [ADB] Could not find online devices
+2024-07-30 05:31:32:420 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:32:420 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:32:667 [ADB] Getting connected devices
+2024-07-30 05:31:32:704 [ADB] No connected devices have been detected
+2024-07-30 05:31:32:704 [ADB] Could not find online devices
+2024-07-30 05:31:32:704 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:32:704 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:32:952 [ADB] Getting connected devices
+2024-07-30 05:31:32:989 [ADB] No connected devices have been detected
+2024-07-30 05:31:32:989 [ADB] Could not find online devices
+2024-07-30 05:31:32:990 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:32:990 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:33:238 [ADB] Getting connected devices
+2024-07-30 05:31:33:274 [ADB] No connected devices have been detected
+2024-07-30 05:31:33:274 [ADB] Could not find online devices
+2024-07-30 05:31:33:274 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:33:274 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:33:522 [ADB] Getting connected devices
+2024-07-30 05:31:33:562 [ADB] No connected devices have been detected
+2024-07-30 05:31:33:562 [ADB] Could not find online devices
+2024-07-30 05:31:33:562 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:33:562 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:33:808 [ADB] Getting connected devices
+2024-07-30 05:31:33:847 [ADB] No connected devices have been detected
+2024-07-30 05:31:33:847 [ADB] Could not find online devices
+2024-07-30 05:31:33:847 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:33:847 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:34:108 [ADB] Getting connected devices
+2024-07-30 05:31:34:145 [ADB] No connected devices have been detected
+2024-07-30 05:31:34:145 [ADB] Could not find online devices
+2024-07-30 05:31:34:145 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:34:145 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:34:393 [ADB] Getting connected devices
+2024-07-30 05:31:34:436 [ADB] No connected devices have been detected
+2024-07-30 05:31:34:436 [ADB] Could not find online devices
+2024-07-30 05:31:34:437 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:34:437 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:34:678 [ADB] Getting connected devices
+2024-07-30 05:31:34:727 [ADB] No connected devices have been detected
+2024-07-30 05:31:34:727 [ADB] Could not find online devices
+2024-07-30 05:31:34:728 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:34:728 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:34:977 [ADB] Getting connected devices
+2024-07-30 05:31:35:021 [ADB] No connected devices have been detected
+2024-07-30 05:31:35:022 [ADB] Could not find online devices
+2024-07-30 05:31:35:022 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:35:022 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:35:277 [ADB] Getting connected devices
+2024-07-30 05:31:35:315 [ADB] No connected devices have been detected
+2024-07-30 05:31:35:315 [ADB] Could not find online devices
+2024-07-30 05:31:35:316 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:35:316 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:35:562 [ADB] Getting connected devices
+2024-07-30 05:31:35:598 [ADB] No connected devices have been detected
+2024-07-30 05:31:35:598 [ADB] Could not find online devices
+2024-07-30 05:31:35:598 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:35:598 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:35:832 [ADB] Getting connected devices
+2024-07-30 05:31:35:870 [ADB] No connected devices have been detected
+2024-07-30 05:31:35:870 [ADB] Could not find online devices
+2024-07-30 05:31:35:870 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:35:870 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:36:116 [ADB] Getting connected devices
+2024-07-30 05:31:36:157 [ADB] No connected devices have been detected
+2024-07-30 05:31:36:157 [ADB] Could not find online devices
+2024-07-30 05:31:36:157 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:36:157 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:36:400 [ADB] Getting connected devices
+2024-07-30 05:31:36:437 [ADB] No connected devices have been detected
+2024-07-30 05:31:36:437 [ADB] Could not find online devices
+2024-07-30 05:31:36:437 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:36:437 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:36:684 [ADB] Getting connected devices
+2024-07-30 05:31:36:717 [ADB] No connected devices have been detected
+2024-07-30 05:31:36:717 [ADB] Could not find online devices
+2024-07-30 05:31:36:718 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:36:718 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:36:953 [ADB] Getting connected devices
+2024-07-30 05:31:36:989 [ADB] No connected devices have been detected
+2024-07-30 05:31:36:989 [ADB] Could not find online devices
+2024-07-30 05:31:36:989 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:36:989 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:37:253 [ADB] Getting connected devices
+2024-07-30 05:31:37:291 [ADB] No connected devices have been detected
+2024-07-30 05:31:37:291 [ADB] Could not find online devices
+2024-07-30 05:31:37:291 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:37:292 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:37:537 [ADB] Getting connected devices
+2024-07-30 05:31:37:572 [ADB] No connected devices have been detected
+2024-07-30 05:31:37:572 [ADB] Could not find online devices
+2024-07-30 05:31:37:572 [ADB] Reconnecting adb (target offline)
+2024-07-30 05:31:37:572 [ADB] Running 'C:\Users\Labs User's\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2024-07-30 05:31:37:805 [UiAutomator2] Deleting UiAutomator2 session
+2024-07-30 05:31:37:807 [BaseDriver] Event 'newSessionStarted' logged at 1722317497807 (11:01:37 GMT+0530 (India Standard Time))
+2024-07-30 05:31:37:839 [W3C] Encountered internal error running command: Error: Could not find a connected Android device in 20160ms.
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:266:13)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:18)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:840 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:841 [W3C]     at getDevices (C:\Users\Labs User's\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2024-07-30 05:31:37:868 [HTTP] <-- POST /wd/hub/session 500 20577 ms - 679
+2024-07-30 05:31:37:868 [HTTP] 

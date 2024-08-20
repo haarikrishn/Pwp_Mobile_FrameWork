@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BDD_MobileBase" />
         <module name="PWP_MobileAutomationFramework" />
+        <module name="poss" />
       </profile>
     </annotationProcessing>
   </component>

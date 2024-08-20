@@ -1,0 +1,4578 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>D_Link API Automation</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">D_Link - CANARY Environment</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 20, 2024 11:32:50 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">launch the poss application using data table</p>
+            <p class="text-sm">
+              <span>11:32:50 AM</span> / <span>00:16:51:397</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">launch the poss application using data table</h5>
+<span class='badge badge-success'>08.20.2024 11:32:50 AM</span>
+<span class='badge badge-danger'>08.20.2024 11:49:42 AM</span>
+<span class='badge badge-default'>00:16:51:397</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:03 AM</td>
+        <td>
+          OpenCashcouterBalance is - 5000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:03 AM</td>
+        <td>
+          PaymentTypeAl is - [Cash, Card, Cheque, Upi]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:04 AM</td>
+        <td>
+          EanAndpaymentList is -[{EAN=1001340751}, {EAN=8903363000415}, {EAN=8903363000422}, {EAN=8903363000439}, {EAN=1001557159}, {EAN=1002294985}, {EAN=1002296019}, {EAN=8903363002020}, {EAN=1001340782}, {EAN=8903363000644}, {EAN=8903363000651}, {EAN=1000004920}, {EAN=1000004944}, {EAN=1000588734}, {EAN=1000588765}, {EAN=1000589380}, {EAN=1000797938}, {EAN=1000576335}, {EAN=1000576366}, {EAN=1000576373}, {EAN=8903363003447}, {EAN=8903363003454}, {EAN=1002355525}, {EAN=8903363002044}, {EAN=1001038214}, {EAN=1001038221}, {EAN=1001340973}, {EAN=1001341970}, {EAN=1001012986}, {EAN=1001012993}, {EAN=8903363000866}, {EAN=1000798096}, {EAN=1000810514}, {EAN=1000818114}, {EAN=1001340799}, {EAN=1001340805}, {EAN=1001340812}, {EAN=8903363000354}, {EAN=8903363000361}, {EAN=8903363000378}, {EAN=1001341031}, {EAN=8903363000330}, {EAN=8903363000347}, {EAN=1000004012}, {EAN=1000004029}, {EAN=1000004883}, {EAN=1000588727}, {EAN=1000588772}, {EAN=8903363000309}, {EAN=8903363000316}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:04 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:07 AM</td>
+        <td>
+          EanEle is  -1001340751
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:08 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:11 AM</td>
+        <td>
+          EanEle is  -8903363000415
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:12 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:16 AM</td>
+        <td>
+          EanEle is  -8903363000422
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:17 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:20 AM</td>
+        <td>
+          EanEle is  -8903363000439
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:21 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:24 AM</td>
+        <td>
+          EanEle is  -1001557159
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:25 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:28 AM</td>
+        <td>
+          EanEle is  -1002294985
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:29 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:33 AM</td>
+        <td>
+          EanEle is  -1002296019
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:34 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 AM</td>
+        <td>
+          EanEle is  -8903363002020
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 AM</td>
+        <td>
+          EanEle is  -1001340782
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:42 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:46 AM</td>
+        <td>
+          EanEle is  -8903363000644
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:47 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:50 AM</td>
+        <td>
+          EanEle is  -8903363000651
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:51 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:54 AM</td>
+        <td>
+          EanEle is  -1000004920
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:55 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:58 AM</td>
+        <td>
+          EanEle is  -1000004944
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:59 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 AM</td>
+        <td>
+          EanEle is  -1000588734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:07 AM</td>
+        <td>
+          EanEle is  -1000588765
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:08 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:11 AM</td>
+        <td>
+          EanEle is  -1000589380
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:12 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:15 AM</td>
+        <td>
+          EanEle is  -1000797938
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:16 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:19 AM</td>
+        <td>
+          EanEle is  -1000576335
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:21 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:24 AM</td>
+        <td>
+          EanEle is  -1000576366
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:25 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:28 AM</td>
+        <td>
+          EanEle is  -1000576373
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:29 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:33 AM</td>
+        <td>
+          EanEle is  -8903363003447
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:34 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:37 AM</td>
+        <td>
+          EanEle is  -8903363003454
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:38 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:41 AM</td>
+        <td>
+          EanEle is  -1002355525
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:43 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:46 AM</td>
+        <td>
+          EanEle is  -8903363002044
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:47 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:50 AM</td>
+        <td>
+          EanEle is  -1001038214
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:55 AM</td>
+        <td>
+          EanEle is  -1001038221
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:56 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 AM</td>
+        <td>
+          EanEle is  -1001340973
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:00 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 AM</td>
+        <td>
+          EanEle is  -1001341970
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:04 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:07 AM</td>
+        <td>
+          EanEle is  -1001012986
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:09 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:12 AM</td>
+        <td>
+          EanEle is  -1001012993
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:13 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:16 AM</td>
+        <td>
+          EanEle is  -8903363000866
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:17 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:21 AM</td>
+        <td>
+          EanEle is  -1000798096
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:22 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:25 AM</td>
+        <td>
+          EanEle is  -1000810514
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:26 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:29 AM</td>
+        <td>
+          EanEle is  -1000818114
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:30 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:34 AM</td>
+        <td>
+          EanEle is  -1001340799
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:35 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:38 AM</td>
+        <td>
+          EanEle is  -1001340805
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:39 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:42 AM</td>
+        <td>
+          EanEle is  -1001340812
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:43 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:47 AM</td>
+        <td>
+          EanEle is  -8903363000354
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:48 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:51 AM</td>
+        <td>
+          EanEle is  -8903363000361
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:52 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:56 AM</td>
+        <td>
+          EanEle is  -8903363000378
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:57 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:00 AM</td>
+        <td>
+          EanEle is  -1001341031
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:01 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:04 AM</td>
+        <td>
+          EanEle is  -8903363000330
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:05 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:09 AM</td>
+        <td>
+          EanEle is  -8903363000347
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:10 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:13 AM</td>
+        <td>
+          EanEle is  -1000004012
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:14 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:17 AM</td>
+        <td>
+          EanEle is  -1000004029
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:18 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:22 AM</td>
+        <td>
+          EanEle is  -1000004883
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:23 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:26 AM</td>
+        <td>
+          EanEle is  -1000588727
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:27 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:30 AM</td>
+        <td>
+          EanEle is  -1000588772
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:31 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:35 AM</td>
+        <td>
+          EanEle is  -8903363000309
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:36 AM</td>
+        <td>
+          EanEle is -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> accessibility id: :ra:]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:39 AM</td>
+        <td>
+          EanEle is  -8903363000316
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:45 AM</td>
+        <td>
+          checkoutEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: CHECK OUT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:53 AM</td>
+        <td>
+          ChequeEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: Cheque (Ctrl + 3)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:53 AM</td>
+        <td>
+          UPIEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: UPI (Ctrl + 5)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:54 AM</td>
+        <td>
+          PaymentType is - cash
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:56 AM</td>
+        <td>
+          EanAndpaymentList is -[{EAN=1001340751}, {EAN=8903363000415}, {EAN=8903363000422}, {EAN=8903363000439}, {EAN=1001557159}, {EAN=1002294985}, {EAN=1002296019}, {EAN=8903363002020}, {EAN=1001340782}, {EAN=8903363000644}, {EAN=8903363000651}, {EAN=1000004920}, {EAN=1000004944}, {EAN=1000588734}, {EAN=1000588765}, {EAN=1000589380}, {EAN=1000797938}, {EAN=1000576335}, {EAN=1000576366}, {EAN=1000576373}, {EAN=8903363003447}, {EAN=8903363003454}, {EAN=1002355525}, {EAN=8903363002044}, {EAN=1001038214}, {EAN=1001038221}, {EAN=1001340973}, {EAN=1001341970}, {EAN=1001012986}, {EAN=1001012993}, {EAN=8903363000866}, {EAN=1000798096}, {EAN=1000810514}, {EAN=1000818114}, {EAN=1001340799}, {EAN=1001340805}, {EAN=1001340812}, {EAN=8903363000354}, {EAN=8903363000361}, {EAN=8903363000378}, {EAN=1001341031}, {EAN=8903363000330}, {EAN=8903363000347}, {EAN=1000004012}, {EAN=1000004029}, {EAN=1000004883}, {EAN=1000588727}, {EAN=1000588772}, {EAN=8903363000309}, {EAN=8903363000316}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:56 AM</td>
+        <td>
+          DyanmicXapthList1 is -ra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:57 AM</td>
+        <td>
+          DyanmicXapthList1 is -rb
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:57 AM</td>
+        <td>
+          DyanmicXapthList1 is -rc
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:57 AM</td>
+        <td>
+          DyanmicXapthList1 is -rd
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:57 AM</td>
+        <td>
+          DyanmicXapthList1 is -re
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:59 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:01 AM</td>
+        <td>
+          EanEle is  -1001340751
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:02 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:03 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:06 AM</td>
+        <td>
+          EanEle is  -8903363000415
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:07 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:07 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:11 AM</td>
+        <td>
+          EanEle is  -8903363000422
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:12 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:12 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:15 AM</td>
+        <td>
+          EanEle is  -8903363000439
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:17 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:20 AM</td>
+        <td>
+          EanEle is  -1001557159
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:21 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:21 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:25 AM</td>
+        <td>
+          EanEle is  -1002294985
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:26 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:26 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:29 AM</td>
+        <td>
+          EanEle is  -1002296019
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:30 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:34 AM</td>
+        <td>
+          EanEle is  -8903363002020
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:35 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:35 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:38 AM</td>
+        <td>
+          EanEle is  -1001340782
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:40 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:40 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:43 AM</td>
+        <td>
+          EanEle is  -8903363000644
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:45 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:45 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:48 AM</td>
+        <td>
+          EanEle is  -8903363000651
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:49 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:49 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:53 AM</td>
+        <td>
+          EanEle is  -1000004920
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:54 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:54 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:57 AM</td>
+        <td>
+          EanEle is  -1000004944
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:59 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:37:59 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:02 AM</td>
+        <td>
+          EanEle is  -1000588734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:03 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:03 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:06 AM</td>
+        <td>
+          EanEle is  -1000588765
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:08 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:08 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:11 AM</td>
+        <td>
+          EanEle is  -1000589380
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:12 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:12 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:16 AM</td>
+        <td>
+          EanEle is  -1000797938
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:17 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:20 AM</td>
+        <td>
+          EanEle is  -1000576335
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:22 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:22 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:25 AM</td>
+        <td>
+          EanEle is  -1000576366
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:26 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:26 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:30 AM</td>
+        <td>
+          EanEle is  -1000576373
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:31 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:31 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:34 AM</td>
+        <td>
+          EanEle is  -8903363003447
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:35 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:36 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:39 AM</td>
+        <td>
+          EanEle is  -8903363003454
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:40 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:40 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:44 AM</td>
+        <td>
+          EanEle is  -1002355525
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:45 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:45 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:48 AM</td>
+        <td>
+          EanEle is  -8903363002044
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:50 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:50 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:53 AM</td>
+        <td>
+          EanEle is  -1001038214
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:54 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:54 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:58 AM</td>
+        <td>
+          EanEle is  -1001038221
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:59 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:38:59 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:02 AM</td>
+        <td>
+          EanEle is  -1001340973
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:03 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:03 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:07 AM</td>
+        <td>
+          EanEle is  -1001341970
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:08 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:08 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:11 AM</td>
+        <td>
+          EanEle is  -1001012986
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:12 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:13 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:16 AM</td>
+        <td>
+          EanEle is  -1001012993
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:17 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:20 AM</td>
+        <td>
+          EanEle is  -8903363000866
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:22 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:22 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:25 AM</td>
+        <td>
+          EanEle is  -1000798096
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:26 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:27 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:30 AM</td>
+        <td>
+          EanEle is  -1000810514
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:31 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:31 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:34 AM</td>
+        <td>
+          EanEle is  -1000818114
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:36 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:36 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:39 AM</td>
+        <td>
+          EanEle is  -1001340799
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:40 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:41 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:44 AM</td>
+        <td>
+          EanEle is  -1001340805
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:45 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:45 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:48 AM</td>
+        <td>
+          EanEle is  -1001340812
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:50 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:50 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:53 AM</td>
+        <td>
+          EanEle is  -8903363000354
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:54 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:55 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:58 AM</td>
+        <td>
+          EanEle is  -8903363000361
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:59 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:39:59 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:03 AM</td>
+        <td>
+          EanEle is  -8903363000378
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:04 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:04 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:07 AM</td>
+        <td>
+          EanEle is  -1001341031
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:09 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:09 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:12 AM</td>
+        <td>
+          EanEle is  -8903363000330
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:13 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:14 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:17 AM</td>
+        <td>
+          EanEle is  -8903363000347
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:18 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:21 AM</td>
+        <td>
+          EanEle is  -1000004012
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:23 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:23 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:26 AM</td>
+        <td>
+          EanEle is  -1000004029
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:27 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:27 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:31 AM</td>
+        <td>
+          EanEle is  -1000004883
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:32 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:32 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:35 AM</td>
+        <td>
+          EanEle is  -1000588727
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:37 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:37 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:40 AM</td>
+        <td>
+          EanEle is  -1000588772
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:41 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:41 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:45 AM</td>
+        <td>
+          EanEle is  -8903363000309
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:46 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:46 AM</td>
+        <td>
+          EanEle.getText() is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:49 AM</td>
+        <td>
+          EanEle is  -8903363000316
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:40:55 AM</td>
+        <td>
+          checkoutEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: CHECK OUT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:03 AM</td>
+        <td>
+          ChequeEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: Cheque (Ctrl + 3)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:03 AM</td>
+        <td>
+          UPIEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: UPI (Ctrl + 5)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:10 AM</td>
+        <td>
+          PaymentType is - Card
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:16 AM</td>
+        <td>
+          EanAndpaymentList is -[{EAN=1001340751}, {EAN=8903363000415}, {EAN=8903363000422}, {EAN=8903363000439}, {EAN=1001557159}, {EAN=1002294985}, {EAN=1002296019}, {EAN=8903363002020}, {EAN=1001340782}, {EAN=8903363000644}, {EAN=8903363000651}, {EAN=1000004920}, {EAN=1000004944}, {EAN=1000588734}, {EAN=1000588765}, {EAN=1000589380}, {EAN=1000797938}, {EAN=1000576335}, {EAN=1000576366}, {EAN=1000576373}, {EAN=8903363003447}, {EAN=8903363003454}, {EAN=1002355525}, {EAN=8903363002044}, {EAN=1001038214}, {EAN=1001038221}, {EAN=1001340973}, {EAN=1001341970}, {EAN=1001012986}, {EAN=1001012993}, {EAN=8903363000866}, {EAN=1000798096}, {EAN=1000810514}, {EAN=1000818114}, {EAN=1001340799}, {EAN=1001340805}, {EAN=1001340812}, {EAN=8903363000354}, {EAN=8903363000361}, {EAN=8903363000378}, {EAN=1001341031}, {EAN=8903363000330}, {EAN=8903363000347}, {EAN=1000004012}, {EAN=1000004029}, {EAN=1000004883}, {EAN=1000588727}, {EAN=1000588772}, {EAN=8903363000309}, {EAN=8903363000316}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:16 AM</td>
+        <td>
+          DyanmicXapthList1 is -rf
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rh
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -ri
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:19 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:21 AM</td>
+        <td>
+          EanEle is  -1001340751
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:23 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:23 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:26 AM</td>
+        <td>
+          EanEle is  -8903363000415
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:27 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:27 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:31 AM</td>
+        <td>
+          EanEle is  -8903363000422
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:32 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:32 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:36 AM</td>
+        <td>
+          EanEle is  -8903363000439
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:37 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:37 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:40 AM</td>
+        <td>
+          EanEle is  -1001557159
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:41 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:42 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:45 AM</td>
+        <td>
+          EanEle is  -1002294985
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:46 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:46 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:49 AM</td>
+        <td>
+          EanEle is  -1002296019
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:51 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:51 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:54 AM</td>
+        <td>
+          EanEle is  -8903363002020
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:55 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:55 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:59 AM</td>
+        <td>
+          EanEle is  -1001340782
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:00 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:00 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:03 AM</td>
+        <td>
+          EanEle is  -8903363000644
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:05 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:05 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:08 AM</td>
+        <td>
+          EanEle is  -8903363000651
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:09 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:10 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:13 AM</td>
+        <td>
+          EanEle is  -1000004920
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:14 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:14 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:17 AM</td>
+        <td>
+          EanEle is  -1000004944
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:19 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:19 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:22 AM</td>
+        <td>
+          EanEle is  -1000588734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:23 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:23 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:27 AM</td>
+        <td>
+          EanEle is  -1000588765
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:28 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:28 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:31 AM</td>
+        <td>
+          EanEle is  -1000589380
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:33 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:33 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:36 AM</td>
+        <td>
+          EanEle is  -1000797938
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:37 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:37 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:40 AM</td>
+        <td>
+          EanEle is  -1000576335
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:42 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:42 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:45 AM</td>
+        <td>
+          EanEle is  -1000576366
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:46 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:46 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:50 AM</td>
+        <td>
+          EanEle is  -1000576373
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:51 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:51 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:54 AM</td>
+        <td>
+          EanEle is  -8903363003447
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:56 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:56 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:59 AM</td>
+        <td>
+          EanEle is  -8903363003454
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:00 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:01 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:04 AM</td>
+        <td>
+          EanEle is  -1002355525
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:05 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:05 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:09 AM</td>
+        <td>
+          EanEle is  -8903363002044
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:10 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:10 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:13 AM</td>
+        <td>
+          EanEle is  -1001038214
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:14 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:15 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:18 AM</td>
+        <td>
+          EanEle is  -1001038221
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:19 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:19 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:23 AM</td>
+        <td>
+          EanEle is  -1001340973
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:24 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:24 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:27 AM</td>
+        <td>
+          EanEle is  -1001341970
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:28 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:29 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:32 AM</td>
+        <td>
+          EanEle is  -1001012986
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:33 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:33 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:36 AM</td>
+        <td>
+          EanEle is  -1001012993
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:38 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:38 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:41 AM</td>
+        <td>
+          EanEle is  -8903363000866
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:43 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:43 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:46 AM</td>
+        <td>
+          EanEle is  -1000798096
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:47 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:48 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:51 AM</td>
+        <td>
+          EanEle is  -1000810514
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:52 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:52 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:55 AM</td>
+        <td>
+          EanEle is  -1000818114
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:57 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:57 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:00 AM</td>
+        <td>
+          EanEle is  -1001340799
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:01 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:02 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:05 AM</td>
+        <td>
+          EanEle is  -1001340805
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:06 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:06 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:09 AM</td>
+        <td>
+          EanEle is  -1001340812
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:11 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:11 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:14 AM</td>
+        <td>
+          EanEle is  -8903363000354
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:16 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:16 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:19 AM</td>
+        <td>
+          EanEle is  -8903363000361
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:20 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:21 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:24 AM</td>
+        <td>
+          EanEle is  -8903363000378
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:25 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:25 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:29 AM</td>
+        <td>
+          EanEle is  -1001341031
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:30 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:33 AM</td>
+        <td>
+          EanEle is  -8903363000330
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:35 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:35 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:38 AM</td>
+        <td>
+          EanEle is  -8903363000347
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:39 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:40 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:43 AM</td>
+        <td>
+          EanEle is  -1000004012
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:44 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:44 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:47 AM</td>
+        <td>
+          EanEle is  -1000004029
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:49 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:49 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:52 AM</td>
+        <td>
+          EanEle is  -1000004883
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:53 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:53 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:56 AM</td>
+        <td>
+          EanEle is  -1000588727
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:58 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:01 AM</td>
+        <td>
+          EanEle is  -1000588772
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:02 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:02 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:06 AM</td>
+        <td>
+          EanEle is  -8903363000309
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:07 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:07 AM</td>
+        <td>
+          EanEle.getText() is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:10 AM</td>
+        <td>
+          EanEle is  -8903363000316
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:17 AM</td>
+        <td>
+          checkoutEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: CHECK OUT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:24 AM</td>
+        <td>
+          ChequeEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: Cheque (Ctrl + 3)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:24 AM</td>
+        <td>
+          UPIEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: UPI (Ctrl + 5)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:25 AM</td>
+        <td>
+          PaymentType is - Cheque
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:27 AM</td>
+        <td>
+          EanAndpaymentList is -[{EAN=1001340751}, {EAN=8903363000415}, {EAN=8903363000422}, {EAN=8903363000439}, {EAN=1001557159}, {EAN=1002294985}, {EAN=1002296019}, {EAN=8903363002020}, {EAN=1001340782}, {EAN=8903363000644}, {EAN=8903363000651}, {EAN=1000004920}, {EAN=1000004944}, {EAN=1000588734}, {EAN=1000588765}, {EAN=1000589380}, {EAN=1000797938}, {EAN=1000576335}, {EAN=1000576366}, {EAN=1000576373}, {EAN=8903363003447}, {EAN=8903363003454}, {EAN=1002355525}, {EAN=8903363002044}, {EAN=1001038214}, {EAN=1001038221}, {EAN=1001340973}, {EAN=1001341970}, {EAN=1001012986}, {EAN=1001012993}, {EAN=8903363000866}, {EAN=1000798096}, {EAN=1000810514}, {EAN=1000818114}, {EAN=1001340799}, {EAN=1001340805}, {EAN=1001340812}, {EAN=8903363000354}, {EAN=8903363000361}, {EAN=8903363000378}, {EAN=1001341031}, {EAN=8903363000330}, {EAN=8903363000347}, {EAN=1000004012}, {EAN=1000004029}, {EAN=1000004883}, {EAN=1000588727}, {EAN=1000588772}, {EAN=8903363000309}, {EAN=8903363000316}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:27 AM</td>
+        <td>
+          DyanmicXapthList1 is -rk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:28 AM</td>
+        <td>
+          DyanmicXapthList1 is -rl
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:28 AM</td>
+        <td>
+          DyanmicXapthList1 is -rm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:28 AM</td>
+        <td>
+          DyanmicXapthList1 is -rn
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:29 AM</td>
+        <td>
+          DyanmicXapthList1 is -ro
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:29 AM</td>
+        <td>
+          DyanmicXapthList1 is -rp
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:29 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:29 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:29 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:31 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:31 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:31 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:33 AM</td>
+        <td>
+          EanEle is  -1001340751
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:35 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:35 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:38 AM</td>
+        <td>
+          EanEle is  -8903363000415
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:39 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:39 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:43 AM</td>
+        <td>
+          EanEle is  -8903363000422
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:44 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:44 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:48 AM</td>
+        <td>
+          EanEle is  -8903363000439
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:49 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:49 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:52 AM</td>
+        <td>
+          EanEle is  -1001557159
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:53 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:54 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:57 AM</td>
+        <td>
+          EanEle is  -1002294985
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:58 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:01 AM</td>
+        <td>
+          EanEle is  -1002296019
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:03 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:03 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:06 AM</td>
+        <td>
+          EanEle is  -8903363002020
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:07 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:08 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:11 AM</td>
+        <td>
+          EanEle is  -1001340782
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:12 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:12 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:15 AM</td>
+        <td>
+          EanEle is  -8903363000644
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:17 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:20 AM</td>
+        <td>
+          EanEle is  -8903363000651
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:21 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:22 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:25 AM</td>
+        <td>
+          EanEle is  -1000004920
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:26 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:26 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:29 AM</td>
+        <td>
+          EanEle is  -1000004944
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:30 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:31 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:34 AM</td>
+        <td>
+          EanEle is  -1000588734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:35 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:35 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:38 AM</td>
+        <td>
+          EanEle is  -1000588765
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:40 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:40 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:43 AM</td>
+        <td>
+          EanEle is  -1000589380
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:44 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:44 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:47 AM</td>
+        <td>
+          EanEle is  -1000797938
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:52 AM</td>
+        <td>
+          EanEle is  -1000576335
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:53 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:53 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:56 AM</td>
+        <td>
+          EanEle is  -1000576366
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:58 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:58 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:01 AM</td>
+        <td>
+          EanEle is  -1000576373
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:02 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:02 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:06 AM</td>
+        <td>
+          EanEle is  -8903363003447
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:07 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:07 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:11 AM</td>
+        <td>
+          EanEle is  -8903363003454
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:12 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:13 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:16 AM</td>
+        <td>
+          EanEle is  -1002355525
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:17 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:17 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:21 AM</td>
+        <td>
+          EanEle is  -8903363002044
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:22 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:22 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:25 AM</td>
+        <td>
+          EanEle is  -1001038214
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:27 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:27 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 AM</td>
+        <td>
+          EanEle is  -1001038221
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:31 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:32 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:35 AM</td>
+        <td>
+          EanEle is  -1001340973
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:36 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:36 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:39 AM</td>
+        <td>
+          EanEle is  -1001341970
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:41 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:41 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:44 AM</td>
+        <td>
+          EanEle is  -1001012986
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:46 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:46 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:49 AM</td>
+        <td>
+          EanEle is  -1001012993
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:50 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:51 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:54 AM</td>
+        <td>
+          EanEle is  -8903363000866
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:55 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:56 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:59 AM</td>
+        <td>
+          EanEle is  -1000798096
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:00 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:00 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:03 AM</td>
+        <td>
+          EanEle is  -1000810514
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:05 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:05 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:08 AM</td>
+        <td>
+          EanEle is  -1000818114
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:09 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:09 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:12 AM</td>
+        <td>
+          EanEle is  -1001340799
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:13 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:14 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:17 AM</td>
+        <td>
+          EanEle is  -1001340805
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:21 AM</td>
+        <td>
+          EanEle is  -1001340812
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:23 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:23 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:26 AM</td>
+        <td>
+          EanEle is  -8903363000354
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:27 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:27 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:31 AM</td>
+        <td>
+          EanEle is  -8903363000361
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:35 AM</td>
+        <td>
+          EanEle is  -8903363000378
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:37 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:37 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:40 AM</td>
+        <td>
+          EanEle is  -1001341031
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:41 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:41 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:44 AM</td>
+        <td>
+          EanEle is  -8903363000330
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:46 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:46 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:49 AM</td>
+        <td>
+          EanEle is  -8903363000347
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:50 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:51 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:54 AM</td>
+        <td>
+          EanEle is  -1000004012
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:55 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:55 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:58 AM</td>
+        <td>
+          EanEle is  -1000004029
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:59 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:00 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:03 AM</td>
+        <td>
+          EanEle is  -1000004883
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:04 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:04 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:07 AM</td>
+        <td>
+          EanEle is  -1000588727
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:08 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:09 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:12 AM</td>
+        <td>
+          EanEle is  -1000588772
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:13 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:13 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:16 AM</td>
+        <td>
+          EanEle is  -8903363000309
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:18 AM</td>
+        <td>
+          DyanmicXapthList1 is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:18 AM</td>
+        <td>
+          EanEle.getText() is -rq
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:21 AM</td>
+        <td>
+          EanEle is  -8903363000316
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:27 AM</td>
+        <td>
+          checkoutEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: CHECK OUT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:34 AM</td>
+        <td>
+          ChequeEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: Cheque (Ctrl + 3)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:34 AM</td>
+        <td>
+          UPIEle is  -[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=C:\Users\Labs User's\Downloads\onepos.exe, javascriptEnabled=true, ms:waitForAppLaunch=3, platform=WINDOWS, platformName=Windows}] -> name: UPI (Ctrl + 5)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:42 AM</td>
+        <td>
+          PaymentType is - Upi
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 20, 2024 11:32:50 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 20, 2024 11:49:48 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>620</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"launch the poss application using data table":1011.397
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 620
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

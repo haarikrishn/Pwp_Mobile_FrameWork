@@ -17,7 +17,7 @@ public class Config {
     private final Configuration configuration;
     private String configJSON;
     private boolean isLocal;
-    private boolean isAndroid;
+    private boolean isWindows;
     private boolean isIOS;
     private boolean isNative;
     private boolean isBrowser;
@@ -36,7 +36,7 @@ public class Config {
     }
 
     public boolean isAndroid() {
-        return isAndroid;
+        return isWindows;
     }
 
     public boolean isIOS() {
@@ -68,8 +68,8 @@ public class Config {
         System.out.print("configJSON: " +configJSON);
         JSONObject jsonObject = new JSONObject(configJSON);
 
-        if(platform.equalsIgnoreCase("android")){
-            JSONObject capObject = jsonObject.getJSONObject("capabilities").getJSONObject("android");
+        if(platform.equalsIgnoreCase("isWindows")){
+            JSONObject capObject = jsonObject.getJSONObject("capabilities").getJSONObject("isWindows");
             return capObject.toMap();
         }else if(platform.equalsIgnoreCase("ios")){
             JSONObject capObject = jsonObject.getJSONObject("capabilities").getJSONObject("ios");

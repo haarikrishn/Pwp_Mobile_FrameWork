@@ -4,7 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8886b19-2f1e-424e-b7ca-34b7de9a3821" name="Changes" comment="Maintenance - Spelling correction Bottom menu and elements" />
+    <list default="true" id="a8886b19-2f1e-424e-b7ca-34b7de9a3821" name="Changes" comment="Maintenance - Spelling correction Bottom menu and elements">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/capabilities.json" beforeDir="false" afterPath="$PROJECT_DIR$/caps/capabilities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/capabilitiesUk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/capabilitiesUsa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-javaagent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/Runner/PWP_Flow_TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/Runner/PickerAndLoaderFlowRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/Runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/ArticleDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/ConfirmMoveItemPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/ConsolidateHUPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/DeliveryDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenericLoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/HU_DetailPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/ItemsExceptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/LoaderPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/PickListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/PickerInvalidQuantityOfflinePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/PickerInvalidQuantityPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/picker1OfflinePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/picker1Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/picker1TwoHUsOfflinepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/picker1TwoHUspage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/Gestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/Gestures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/QXClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/QXClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DmartLabs/config/Global.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DmartLabs/config/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/GenericStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/extra/GenericStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/extra/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/LoaderSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/LogoutSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/MultUsersWaitTopickStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/picker1Step.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/picker1TwoHUsStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/pickerAndLoaderOfflineflowStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/pickerInvalidQuantityStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/Logout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/MultiUsersWaitToPick.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/PWP_Loader.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/PWP_LoaderMultipleUser.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/PWP_LoaderOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/PWP_PickerAndLoaderFlow_Online.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sanity/PickerOfflineFlowV2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample/PWP_PickerAndLoaderFlow.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample/PWP_PickerAndLoaderOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample/Picker1TwoHU.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample/PickerOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample/pickerInvalidQuantity.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spark-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BDD_MobileBase-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/Runner/PWP_Flow_TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/Runner/PickerAndLoaderFlowRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/Runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/Runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/ArticleDetailsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/ConfirmMoveItemPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/ConsolidateHUPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/DeliveryDetailsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/GenericLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/HU_DetailPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/ItemsExceptionPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/LoaderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/PickListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/PickerInvalidQuantityOfflinePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/PickerInvalidQuantityPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/picker1OfflinePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/picker1Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/picker1TwoHUsOfflinepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/bdd/pages/picker1TwoHUspage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/ExcelUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/Gestures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/Gestures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/QXClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/commonutils/QXClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DmartLabs/config/Global.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/DmartLabs/config/Global.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/GenericStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/HomePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/LoaderSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/LoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/LogoutSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/MultUsersWaitTopickStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/picker1Step.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/picker1TwoHUsStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/pickerAndLoaderOfflineflowStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/DmartLabs/stepdefinitions/pickerInvalidQuantityStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/Logout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/MultiUsersWaitToPick.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PWP_Loader.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PWP_LoaderMultipleUser.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PWP_LoaderOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PWP_PickerAndLoaderFlow_Online.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PWP_PickerAndLoaderOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Sanity/PickerOfflineFlowV2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample/PWP_PickerAndLoaderFlow.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample/Picker1TwoHU.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample/PickerOfflineFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample/pickerInvalidQuantity.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spark-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/spark-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/cucumber-reports/html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/cucumber-reports/html-report.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +193,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -54,33 +217,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/Sanity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dmart_Github\poss_desk\Poss\poss\src\test\resources\features\Sanity" />
+      <recent name="D:\Dmart_Github\poss_desk\Poss\poss\caps" />
+      <recent name="D:\Dmart_Github\poss_desk\Poss\poss\src\test\resources\TestData.canary" />
       <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\test\java\com\DmartLabs\stepdefinitions" />
       <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\test\resources\features\Sanity" />
-      <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\main\java\com\DmartLabs\bdd\pages" />
-      <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\main\java\DmartLabs\bdd\pages" />
-      <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\main\java\com.qt\bdd\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dmart_Github\poss_desk\Poss\poss\src\main\java\com\DmartLabs\bdd\extraPages" />
       <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\test\resources\features\sample" />
       <recent name="C:\Users\FD329\OneDrive\Desktop\PWP_MobileAutomationFramework\src\test\resources\features\Sanity" />
       <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression\DashBoardModuleRegression" />
       <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression\LoginModuleRegression" />
-      <recent name="C:\Users\Admin\LycaRegression\automation-testing\src\test\resources\features\Regression" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.DmartLabs.commonutils" />
+      <recent name="com.DmartLabs.stepdefinitions" />
+      <recent name="com.DmartLabs.bdd.pages" />
       <recent name="com.DmartLabs.bdd.Runner" />
-      <recent name="com.qt.bdd.Runner" />
-      <recent name="com.qt.stepdefinitions" />
-      <recent name="" />
-      <recent name="com.qt.bdd.pages" />
+      <recent name="com.DmartLabs.config" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -88,16 +251,29 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PickerAndLoaderFlowRunner">
-    <configuration name="Scenario: One Delivery Two HUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Demo_TestRunner">
+    <configuration name="GenerateDynamicXpath1_Page" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DmartLabs.bdd.pages.GenerateDynamicXpath1_Page" />
+      <module name="poss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DmartLabs.bdd.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: launch the poss application usin data table" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Sanity/PickerOfflineFlowV2.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Sanity/poss_login.feature" />
       <option name="GLUE" value="com.DmartLabs.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="PWP_MobileAutomationFramework" />
-      <option name="NAME_FILTER" value="^One Delivery Two HUs$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^One Delivery Two HUs$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: One Delivery Two HUs" />
+      <module name="poss" />
+      <option name="NAME_FILTER" value="^launch the poss application usin data table$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^launch the poss application usin data table$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: launch the poss application usin data table" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,48 +285,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Pick the items in Offline mode" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Sanity/PickerOfflineFlowV2.feature" />
-      <option name="GLUE" value="com.DmartLabs.stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="PWP_MobileAutomationFramework" />
-      <option name="NAME_FILTER" value="^Pick the items in Offline mode$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pick the items in Offline mode$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Pick the items in Offline mode" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="D:/Dmart_Github/poss_desk/Poss/poss/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="poss" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: pick the PickingSevenItemsMultiUserTwo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Sanity/MultiUsersWaitToPick.feature" />
-      <option name="GLUE" value="com.DmartLabs.stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="PWP_MobileAutomationFramework" />
-      <option name="NAME_FILTER" value="^pick the PickingSevenItemsMultiUserTwo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^pick the PickingSevenItemsMultiUserTwo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: pick the PickingSevenItemsMultiUserTwo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PickerAndLoaderFlowRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PWP_MobileAutomationFramework" />
+    <configuration name="Demo_TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="poss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.DmartLabs.bdd.Runner.*" />
@@ -158,7 +304,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.DmartLabs.bdd.Runner" />
-      <option name="MAIN_CLASS_NAME" value="com.DmartLabs.bdd.Runner.PickerAndLoaderFlowRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.DmartLabs.bdd.Runner.Demo_TestRunner" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -167,7 +313,7 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PWP_MobileAutomationFramework" />
+      <module name="poss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.DmartLabs.bdd.Runner.*" />
@@ -184,19 +330,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Pick the items in Offline mode" />
+      <item itemvalue="Application.GenerateDynamicXpath1_Page" />
+      <item itemvalue="Cucumber Java.Scenario: launch the poss application usin data table" />
       <item itemvalue="TestNG.TestRunner" />
-      <item itemvalue="Cucumber Java.Scenario: One Delivery Two HUs" />
-      <item itemvalue="Cucumber Java.Scenario: pick the PickingSevenItemsMultiUserTwo" />
-      <item itemvalue="TestNG.PickerAndLoaderFlowRunner" />
+      <item itemvalue="TestNG.D:/Dmart_Github/poss_desk/Poss/poss/testng.xml" />
+      <item itemvalue="TestNG.Demo_TestRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PickerAndLoaderFlowRunner" />
-        <item itemvalue="Cucumber Java.Scenario: pick the PickingSevenItemsMultiUserTwo" />
-        <item itemvalue="Cucumber Java.Scenario: One Delivery Two HUs" />
-        <item itemvalue="Cucumber Java.Scenario: Pick the items in Offline mode" />
+        <item itemvalue="TestNG.Demo_TestRunner" />
         <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: launch the poss application usin data table" />
+        <item itemvalue="Application.GenerateDynamicXpath1_Page" />
+        <item itemvalue="TestNG.D:/Dmart_Github/poss_desk/Poss/poss/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -474,9 +620,594 @@
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/HU_DetailPage.java</url>
-          <line>250</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/extra/poss_Steps.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/extra/poss_Steps.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>406</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>410</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>436</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>444</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>499</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>488</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>508</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>446</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>463</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>458</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>473</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>474</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>453</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>481</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>282</line>
           <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>298</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/WailsOnePos_DlabsAutomation.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/PaymentPage.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/PaymentPage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/AddItemsPage.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/AddItemsPage.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/AddItemsPage.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/AddItemsPage.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/AddItemsPage.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/ExcelUtils.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/ExcelUtils.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/commonutils/ExcelUtils.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_PaymentPage.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/DmartLabs/stepdefinitions/Poss_Wails_Step.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>28</line>
+          <properties class="com.DmartLabs.bdd.extraPages.Poss_loginPage" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>41</line>
+          <properties class="com.DmartLabs.bdd.extraPages.Poss_loginPage" method="enterPassword">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/Multiple_AddItemsPage.java</url>
+          <line>137</line>
+          <properties class="com.DmartLabs.bdd.pages.Multiple_AddItemsPage" method="GenerateDynamicXpath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>79</line>
+          <properties class="com.DmartLabs.bdd.pages.GenerateDynamicXpath1_Page" method="initilizeElementUsingDynamicXpath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>98</line>
+          <properties class="com.DmartLabs.bdd.pages.GenerateDynamicXpath1_Page" method="EanInitilizeElementsUsingPractiseDT">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/pages/GenerateDynamicXpath1_Page.java</url>
+          <line>220</line>
+          <properties class="com.DmartLabs.bdd.pages.GenerateDynamicXpath1_Page" method="CardOrUpiPayment">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/DmartLabs/bdd/extraPages/Poss_loginPage.java</url>
+          <line>17</line>
+          <properties field="windowsDriver" class="com.DmartLabs.bdd.extraPages.Poss_loginPage" />
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

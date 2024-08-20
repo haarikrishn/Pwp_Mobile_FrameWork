@@ -37,7 +37,9 @@ public class Global {
         Global.reportPath = reportPath;
     }
 
+
     public static String getReportPath() {
+
         return reportPath;
     }
 

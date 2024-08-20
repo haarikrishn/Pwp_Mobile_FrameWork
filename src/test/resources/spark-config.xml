@@ -14,7 +14,7 @@
         <protocol>https</protocol>
         
         <!-- title of the document -->
-        <documentTitle>Lyca</documentTitle>
+        <documentTitle>Dmart</documentTitle>
         
         <!-- report name - displayed at top-nav -->
         <reportName>Extent Report</reportName>

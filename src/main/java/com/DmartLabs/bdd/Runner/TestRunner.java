@@ -9,14 +9,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@CucumberOptions(features = "src//test//resources//features",
-        //tags = "@login",
-        //tags = "@Offline",
-        tags = "@PicingSevenItemsMultiUser2",
-        //tags = "@load",
-        //tags = "@BOX",
-        //tags = "@sanityUk",
-        //tags = "@Loader2",
+@CucumberOptions(features = "./src/test/resources/features/Sanity/poss_login.feature",
+        //   tags = "@poss_Wails_FlowOneTime",
+        // tags = "@poss_Wails_Flow_Multiple",
+        //  tags =    "@poss_Wails_FlowExcel",
+        tags = "@poss_Wails_FlowDataTable",
+ // tags = "@poss_Wails_FlowPractise",
         dryRun = false,
         glue = "com/DmartLabs/stepdefinitions",
         plugin = {"pretty",
@@ -40,7 +38,9 @@ public class TestRunner {
     }
 
     @Test(groups = "cucumber scenarios", dataProvider = "scenarios")
-    public void scenario(PickleWrapper pickleEvent, FeatureWrapper cucumberFeature) throws Throwable {
+    public void
+
+    scenario(PickleWrapper pickleEvent, FeatureWrapper cucumberFeature) throws Throwable {
         testNGCucumberRunner.runScenario(pickleEvent.getPickle());
     }
 

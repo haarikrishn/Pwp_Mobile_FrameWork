@@ -1,20 +1,11 @@
 package com.DmartLabs.commonutils;
 
+import com.DmartLabs.config.ConStants;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.ss.usermodel.FormulaEvaluator;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -46,6 +37,92 @@ public class ExcelUtils {
         ExcelObject excelObject = new ExcelObject(excelPath, wb);
         this.excelMap.put(excelReference, excelObject);
     }
+    //=====================================================================================================================
+
+    public static Workbook workbook;
+    public static List<String> RowList = new ArrayList<>();
+    public static DataFormatter dataFormatter;
+    public static HashMap<String, String> ItemsMap;
+    public static List<HashMap<String, String>> itemsList ;
+
+
+    //========================================================================================
+
+
+    public static void ExcelUtilsReadFile(String fileName) {
+        try {
+            FileInputStream fis = new FileInputStream(ConStants.EXCEL_FILE_PATH + fileName);
+            workbook = WorkbookFactory.create(fis);
+            dataFormatter = new DataFormatter();
+//            fos = new FileOutputStream(ConStants.EXCEL_FILE_PATH + fileName);
+           // System.out.println();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    //=================================================================================================
+
+
+
+
+    //read poss data from excel sheet
+    public static List<HashMap<String, String>> readPossDataFromExcelSheet(String SheetName, String requiredtasks, String PamentType,String excelFile) {
+
+        ExcelUtilsReadFile(excelFile);
+
+        Sheet sheet = workbook.getSheet(SheetName);
+
+        for (int i = 0; i < sheet.getRow(0).getPhysicalNumberOfCells(); i++) {
+            String rowMainValue = sheet.getRow(0).getCell(i).getStringCellValue();
+            if (!rowMainValue.equals("")) {
+                String RowcellValue = sheet.getRow(0).getCell(i).getStringCellValue();
+                RowList.add(RowcellValue);
+            }
+        }
+        itemsList = new ArrayList<>();
+        for (int i = 1; i < sheet.getPhysicalNumberOfRows(); i++) {
+            ItemsMap = new HashMap<>();
+            int reqInt = Integer.parseInt(requiredtasks);
+            if (i == reqInt + 1) {
+                break;
+            } else {
+                Row row = sheet.getRow(i);
+                for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+                    String values = dataFormatter.formatCellValue(row.getCell(j));
+                    if (!values.equals("")) {
+                        ItemsMap.put(RowList.get(j), values);
+                    }
+                }
+            }
+            itemsList.add(ItemsMap);
+        }
+        try {
+            workbook.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+
+
+        return itemsList;
+    }
+
+
+//    public static void main(String[] args) throws IOException {
+//        FileInputStream fileInputStream = new FileInputStream("./src/test/resources/TestData.canary/Possdata.xlsx");
+//        workbook = new XSSFWorkbook(fileInputStream);
+//        String sheetName = "ReadData";
+//        String PamentType = "Cash";
+//        String requiredtasks = "3";
+//        Sheet sheet = workbook.getSheet(sheetName);
+//        System.out.println(readPossDataFromExcelSheet(sheetName, requiredtasks, PamentType));
+//
+//    }
+    //=====================================================================================================================
 
     public void close(String excelReference) throws IOException {
 
@@ -61,12 +138,12 @@ public class ExcelUtils {
 
     public void closeAll() throws IOException {
         try {
-            Set<String> wbKeys=this.excelMap.keySet();
-            for(String key:wbKeys) {
-                System.out.println("Closing "+key);
-                ExcelObject excelObject= this.excelMap.get(key);
+            Set<String> wbKeys = this.excelMap.keySet();
+            for (String key : wbKeys) {
+                System.out.println("Closing " + key);
+                ExcelObject excelObject = this.excelMap.get(key);
                 excelObject.excelWorkbook.close();
-                excelObject.excelWorkbook=null;
+                excelObject.excelWorkbook = null;
             }
             this.excelMap.clear();
             System.gc();
@@ -151,22 +228,22 @@ public class ExcelUtils {
             boolean Bvalue = false;
             boolean conversionDone = false;
 
-            if(!conversionDone) {
+            if (!conversionDone) {
                 try {
                     cell.setCellValue(Integer.parseInt(text));
                     System.out.println("Integer Type Written");
                     conversionDone = true;
-                }catch (Exception e) {
+                } catch (Exception e) {
                     // TODO: handle exception
                 }
             }
 
-            if(!conversionDone) {
+            if (!conversionDone) {
                 try {
                     cell.setCellValue(Double.parseDouble(text));
                     System.out.println("Double Type Written");
                     conversionDone = true;
-                }catch (Exception e) {
+                } catch (Exception e) {
                     // TODO: handle exception
                 }
             }
@@ -183,7 +260,7 @@ public class ExcelUtils {
                 }
             }
 
-            if(!conversionDone){
+            if (!conversionDone) {
                 cell.setCellValue(text);
                 System.out.println("String Type Written");
                 conversionDone = true;
@@ -258,7 +335,7 @@ public class ExcelUtils {
         }
 
         if (cellType == 0) {
-            if(oldValue != null && !oldValue.isEmpty()) {
+            if (oldValue != null && !oldValue.isEmpty()) {
                 return oldValue;
             }
 
@@ -327,7 +404,7 @@ public class ExcelUtils {
     private String handleFormulaCell(Cell cell, int type) {
         FormulaEvaluator evaluator = wb.getCreationHelper().createFormulaEvaluator();
         System.out.println(">>Inside Formula");
-        System.out.println(">.Prev Cell Type " + cell.getCellType()+"  "+cell.getCellType().getCode());
+        System.out.println(">.Prev Cell Type " + cell.getCellType() + "  " + cell.getCellType().getCode());
         String oldNumericValue = "";
         try {
             //double oldValue = cell.getNumericCellValue();
@@ -349,7 +426,7 @@ public class ExcelUtils {
             System.out.println(">>Cell is of Formula Type");
             evaluator.evaluateInCell(cell);
         }
-        System.out.println(">>Current Cell Type " + cell.getCellType()+"  "+cell.getCellType().getCode());
+        System.out.println(">>Current Cell Type " + cell.getCellType() + "  " + cell.getCellType().getCode());
         return getExcelCellValue(cell, cell.getCellType().getCode(), oldNumericValue);
     }
 

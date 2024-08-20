@@ -1,0 +1,4 @@
+# Created at 2024-07-30T10:52:35.618
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Dmart_Github\poss_desk\Poss\poss\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
